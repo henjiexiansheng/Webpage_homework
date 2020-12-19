@@ -1,0 +1,54 @@
+.login div:nth-child(1) a{
+    color: black;
+    background-color:dodgerblue;
+}
+/* 表单开始 */
+.login1{
+    width: 750px;
+    height: 551px;  /* 535px */
+    margin:0 auto;
+    margin-top:20px;
+    padding-left:300px;
+}
+.login_son{
+    width: 380px;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-left: 20px;
+    padding-top: 70px;
+    border-radius: 35px;
+}
+.login_title{
+    padding-left:85px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.subp{
+    width: 100%;
+    padding-left:50px;
+    margin-top:20px;
+}
+.sub{   /* 提交按钮 */
+    width: 167px;
+    height: 48px;
+    background-color: rgba(103,158,220,0.7);
+    border:none;
+    border-radius: 35px;
+    -webkit-animation: fg 3s infinite;
+}
+form p{
+    margin-bottom: 10px;
+}
+@keyframes fg{
+    0%{
+        box-shadow:0 0 10px rgb(7, 198, 231);
+    }
+    50%{
+        box-shadow:0 0 10px rgb(103, 255, 15);
+    }
+    100%{
+        box-shadow: rgb(247, 191, 9);
+    }
+/* 表单结束 */

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>交大风景网</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/login_zc.css">
+        <script type="text/javascript" src="js/stitle.js"></script>
+        <script src="js/login.js"></script>
+    </head>
+    <body>
+        <div class="header" id="top">
+            <div class="logo_father">
+                <img src="./images/logo/logo.png" alt="logo" title="交大风景网">
+            </div>
+            <div class="header_title">-----风景在线</div>
+            <div class="login">
+                <div><a href="./login.html" title="登录">登录</a></div>
+                <div><a href="./login_zc.html" title="注册">注册</a></div>
+            </div>
+        </div>
+        <!-- 头部结束 -->
+
+        <!-- 导航开始 -->
+        <div class="index_father">
+            <ul class="index">
+                <li onmouseover="change('title_first','block')" onmouseout="change('title_first','none')"><a href="./index.html" class="yin" title="初入交大">初入交大</a>
+                    <div id="title_first" class="two_title">
+                        <a href="#" title="交大简介">交大简介</a>
+                        <a href="#" title="主要领导">主要领导</a>
+                        <a href="#" title="历史沿革">历史沿革</a>
+                        <a href="#" title="部门设置">部门设置</a>
+                    </div>
+                </li>
+                <li onmouseover="change('title_second','block')" onmouseout="change('title_second','none')"><a href="./xywh.html" class="yin" title="校园文化">校园文化</a>
+                    <div id="title_second" class="two_title">
+                        <a href="#" title="交大校训">交大校训</a>
+                        <a href="#" title="交大校风">交大校风</a>
+                        <a href="#" title="大铁精神">大铁精神</a>
+                        <a href="#" title="交大校歌">交大校歌</a>
+                    </div>
+                </li>
+                <li onmouseover="change('title_third','block')" onmouseout="change('title_third','none')"><a href="./xyhd.html" class="yin" title="校园活动">校园活动</a>
+                    <div id="title_third" class="two_title">
+                        <a href="#" title="主题教育">主题教育</a>
+                        <a href="#" title="体育在线">体育在线</a>
+                        <a href="#" title="文娱演出">文娱演出</a>
+                        <a href="#" title="学术讲座">学术讲座</a>
+                    </div>
+                </li>
+                <li onmouseover="change('title_forth','block')" onmouseout="change('title_forth','none')"><a href="./video.html" class="yin" title="映像交大">映像交大</a>
+                    <div id="title_forth" class="two_title">
+                        <a href="#" title="精彩视频">精彩视频</a>
+                        <a href="#" title="交大要闻">交大要闻</a>
+                        <a href="#" title="院系新闻">院系新闻</a>
+                        <a href="#" title="重要通知">重要通知</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 导航结束 -->
+        
+        <!-- 表单开始 -->
+        <div class="login_zc_father">
+            <h3 class="t1">您的账号信息：</h3>
+            <form action="./login_zcyz.html" method="POST" name="form1" onsubmit="return check()">
+                <p>
+                    <label>注册方式：</label>
+                    <input type="radio" value="1" name="method" id="f1"><label for="f1">E-mail注册</label>
+                    <input type="radio" value="2" name="method" id="f2" checked><label for="f2">手机号码注册</label>
+                </p>
+                <p>
+                    <label>注册邮箱：</label>
+                    <input type="text" name="email" class="box" placeholder="请输入邮箱">
+                    <span id="mailin"></span>
+                </p>
+                <p>
+                    <label>注册手机：</label>
+                    <input type="text" name="phone" class="box" placeholder="请输入手机号">
+                    <span id="phonein"></span>
+                </p>
+                <p>
+                    <label>登陆密码：</label>
+                    <input type="password" name="password" class="box" placeholder="请输入密码">
+                    <span id="passin"></span>
+                </p>
+                <p class="two">
+                    <label>昵称：</label>
+                    <input type="text" name="name" class="box" placeholder="请输入昵称">
+                    <span id="namein"></span>
+                </p>
+            </form>
+            <h3 class="t2">您的个人信息：</h3>
+            <form action="./login_zcyz.html" method="POST" name="form2" onsubmit="return check()">
+                <p class="two">
+                    <label>性别：</label>
+                    <input type="radio" value="3" name="sex" id="f3" checked><label for="f3">男</label>
+                    <input type="radio" value="4" name="sex" id="f4"><label for="f4">女</label>
+                </p>
+                <p class="two">
+                    <label>学历：</label>
+                    <select>
+                        <option value="xz">-请选择-</option>
+                        <option value="zz">中职/高中</option>
+                        <option value="zk">专科/本科</option>
+                        <option value="ss">硕士研究生</option>
+                        <option value="bs">硕士研究生</option>
+                    </select>
+                </p>
+                <p>
+                    <label>所在城市：</label>
+                    <select>
+                        <option value="xz">-请选择-</option>
+                        <option value="zz">北京</option>
+                        <option value="zk">上海</option>
+                        <option value="ss">广州</option>
+                        <option value="bs">深圳</option>
+                    </select>
+                </p>
+                <p>
+                    <label>兴趣爱好：</label>
+                    <input type="checkbox" value="zq" name="hobby" id="f5"><label for="f5">足球</label>
+                    <input type="checkbox" value="lq" name="hobby" id="f6"><label for="f6">篮球</label>
+                    <input type="checkbox" value="yy" name="hobby" id="f7"><label for="f7">游泳</label>
+                    <input type="checkbox" value="cg" name="hobby" id="f8"><label for="f8">唱歌</label>
+                    <input type="checkbox" value="pb" name="hobby" id="f9"><label for="f9">跑步</label>
+                    <input type="checkbox" value="yj" name="hobby" id="f10"><label for="f10">瑜伽</label>
+                </p>
+                <p class="zwjs">
+                    <label>自我介绍：</label>
+                    <textarea name="自我介绍" cols="60" rows="8">让大家了解你吧！</textarea>
+                </p>
+                <p class="subp">
+                    <input type="submit" class="sub">
+                </p>
+            </form>
+        </div>
+        <!-- 表单结束 -->
+
+        <!-- 回到顶层开始 -->
+        <div class="pos">
+            <div class="posimg"><a href="#top" title="回到顶部"></a></div>
+        </div>
+        <!-- 回到顶层结束 -->
+        
+                
+    </body>
+</html>

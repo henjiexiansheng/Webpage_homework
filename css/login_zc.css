@@ -1,0 +1,72 @@
+.login div:nth-child(2) a{
+    color: black;
+    background-color:dodgerblue;
+}
+/* 表单开始 */
+.login_zc_father{
+    width: 900px;
+    height: 551px;
+    background-color:rgba(255,250,250,0.8);
+    margin:0 auto;
+    margin-top:20px;
+    padding-left:150px;
+    border-radius: 15px;
+}
+.t1,.t2{    /* 您的账号信息 */
+    width:444px;
+    height:45px;
+    font-size:20px;
+    font-weight: bold;
+    line-height:45px;
+    color:black;
+    border-bottom:1px solid black;
+}
+.box{
+    width:350px;
+    border:1px solid black;
+}
+select{
+    width:150px;
+    border:1px solid black;
+    color:black;
+}
+.subp{
+    width: 100%;
+    padding-left:200px;
+}
+.two{
+    padding-left:31px;
+}
+.sub{   /* 提交按钮 */
+    width: 167px;
+    height: 48px;
+    background-color: rgba(103,158,220,0.7);
+    border-radius: 35px;
+    border:none;
+    -webkit-animation: fg 3s infinite;
+}
+label{
+    color:black;
+}
+.zwjs label{
+    float:left;
+}
+textarea{
+    color: #aaa;
+    border:1px solid black;
+}
+form p{
+    margin-top: 7px;
+}
+@keyframes fg{
+    0%{
+        box-shadow:0 0 10px rgb(7, 198, 231);
+    }
+    50%{
+        box-shadow:0 0 10px rgb(103, 255, 15);
+    }
+    100%{
+        box-shadow: rgb(247, 191, 9);
+    }
+}
+/* 表单结束 */

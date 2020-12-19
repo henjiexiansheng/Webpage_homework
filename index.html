@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>交大风景网</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/crdj.css">
+        <script type="text/javascript" src="js/stitle.js"></script>
+    </head>
+    <body>
+        <!-- 头部开始 -->
+        <div class="header" id="top">
+            <div class="logo_father">
+                <img src="./images/logo/logo.png" alt="logo" title="交大风景网">
+            </div>
+            <div class="header_title">-----风景在线</div>
+            <div class="login">
+                <div><a href="./login.html" title="登录">登录</a></div>
+                <div><a href="./login_zc.html" title="注册">注册</a></div>
+            </div>
+        </div>
+        <!-- 头部结束 -->
+
+        <!-- 导航开始 -->
+        <div class="index_father">
+            <ul class="index">
+                <li onmouseover="change('title_first','block')" onmouseout="change('title_first','none')"><a href="./index.html" class="yin" title="初入交大">初入交大</a>
+                    <div id="title_first" class="two_title">
+                        <a href="#" title="交大简介">交大简介</a>
+                        <a href="#" title="主要领导">主要领导</a>
+                        <a href="#" title="历史沿革">历史沿革</a>
+                        <a href="#" title="部门设置">部门设置</a>
+                    </div>
+                </li>
+                <li onmouseover="change('title_second','block')" onmouseout="change('title_second','none')"><a href="./xywh.html" class="yin" title="校园文化">校园文化</a>
+                    <div id="title_second" class="two_title">
+                        <a href="#" title="交大校训">交大校训</a>
+                        <a href="#" title="交大校风">交大校风</a>
+                        <a href="#" title="大铁精神">大铁精神</a>
+                        <a href="#" title="交大校歌">交大校歌</a>
+                    </div>
+                </li>
+                <li onmouseover="change('title_third','block')" onmouseout="change('title_third','none')"><a href="./xyhd.html" class="yin" title="校园活动">校园活动</a>
+                    <div id="title_third" class="two_title">
+                        <a href="#" title="主题教育">主题教育</a>
+                        <a href="#" title="体育在线">体育在线</a>
+                        <a href="#" title="文娱演出">文娱演出</a>
+                        <a href="#" title="学术讲座">学术讲座</a>
+                    </div>
+                </li>
+                <li onmouseover="change('title_forth','block')" onmouseout="change('title_forth','none')"><a href="./video.html" class="yin" title="映像交大">映像交大</a>
+                    <div id="title_forth" class="two_title">
+                        <a href="./video/djv.webm" title="精彩视频">精彩视频</a>
+                        <a href="#" title="交大要闻">交大要闻</a>
+                        <a href="#" title="院系新闻">院系新闻</a>
+                        <a href="#" title="重要通知">重要通知</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 导航结束 -->
+        
+        <!-- 滚动图开始 -->
+        <div id="container">
+            <div id="list">
+                <img src="./images/crdj/dj001.jpg" class="item" title="交大风景图"/>
+                <img src="./images/crdj/dj002.jpg" class="item" title="交大风景图"/>
+                <img src="./images/crdj/dj003.jpg" class="item" title="交大风景图"/>
+                <img src="./images/crdj/dj004.jpg" class="item" title="交大风景图"/>
+                <img src="./images/crdj/dj005.jpg" class="item" title="交大风景图"/>
+                <img src="./images/crdj/dj006.jpg" class="item" title="交大风景图"/>
+                <img src="./images/crdj/dj007.jpg" class="item" title="交大风景图"/>
+            </div>
+            <button type="button" class="btn" id="Pre"><</button>
+            <button type="button" class="btn" id="Nex">></button>
+            <ul class="pointList">
+                <li class="point active" data-index= '0'></li>
+                <li class="point" data-index= '1'></li>
+                <li class="point" data-index= '2'></li>
+                <li class="point" data-index= '3'></li>
+                <li class="point" data-index= '4'></li>
+                <li class="point" data-index= '5'></li>
+                <li class="point" data-index= '6'></li>
+            </ul>
+        </div>
+        <script type="text/javascript" src="js/chixin.js"></script>
+
+        <!-- 滚动图结束 -->
+
+        <!-- 水平线开始 -->
+        <div class="line"></div>
+        <!-- 水平线结束 -->
+
+        <!-- 交大简介开始 -->
+        <div class="zj">
+            <br/><h2 class="zj_title">交大简介</h2><br/>
+            <br/><p class="zj_second">大连交通大学是东北地区唯一一所以<font>轨道交通</font>为特色的高等学校。1956年，学校应我国铁道机车车辆工业的发展需要而创建,时为大连机车车辆制造学校。1958年升格为<font>大连铁道学院</font>，隶属原铁道部管理。2000年2月，划转为辽宁省政府管理。2004年5月，更名为<font>大连交通大学</font>。</p><br/>
+            <p class="zj_third">在长期的办学历程中，学校始终坚守大学使命，坚持服务区域经济社会、轨道交通行业发展和国家战略需求，形成了“<font>崇严尚实、坚韧执着</font>”的“大铁精神”、“<font>明德求索、锲而不舍</font>”的校训，培养了十余万名毕业生，大多数毕业生在轨道交通行业就业，部分已成为了行业领军人物和核心技术骨干，在业内享有“中国轨道交通装备制造业工程师摇篮”的美誉。</p><br/>
+            <p class="zj_forth">学校现有<font>沙河口校区</font>、<font>旅顺口校区</font>两个校区，占地总面积82.1万平方米，校舍建筑总面积54.1万平方米。教学科研仪器设备总值3.73亿元，馆藏文献资源总量为129.14万册，电子图书145.13万册，中外文电子期刊27400余种。</p><br/>
+            <p class="zj_fifth">新时代，学校以习近平新时代中国特色社会主义思想为指引，紧紧围绕辽宁老工业基地全面振兴和现代轨道交通装备制造业发展，抓牢“一带一路”“交通强国”“高铁走出去”等国家战略实施的发展机遇，全面深化改革，深入推进“双一流”建设，大力推进学校第二次党代会确定的“五大战略”，凝聚发展力量，坚定不移地朝着特色鲜明的高水平研究应用型大学的建设目标迈进。</p><br/>
+        </div>
+        <!-- 交大简介结束 -->
+
+        <!-- 回到顶层开始 -->
+        <div class="pos">
+            <div class="posimg"><a href="#top" title="回到顶部"></a></div>
+        </div>
+        <!-- 回到顶层结束 -->
+    </body>
+</html>

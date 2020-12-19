@@ -1,0 +1,22 @@
+/* 视频开始 */
+.video_father{
+    width: 1050px;
+    height: 562px;
+    margin:0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+video{
+    width: 1050px;
+    border-radius: 10px;
+}
+.index li:last-child .yin{
+    color: black;
+    background-color:dodgerblue;
+}
+.music audio{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+/* 视频结束 */

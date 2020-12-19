@@ -1,0 +1,165 @@
+/* 全局开始 */
+*{
+    margin:0;
+    padding:0;
+}
+ul,ol,dl,dd,dt,li{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url(../images/bgi/bgi.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* 全局结束 */
+/* 头部开始 */
+.header{
+    width: 1050px;
+    height: 75px;
+    margin: 0 auto;
+    border: 0px solid;
+    background:url("../images/crdj/dj005.jpg");
+    z-index: -1;
+    border-radius: 10px;
+}
+.logo_father{
+    width: 240px;
+}
+.logo_father img{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-top: 4px;
+}
+.logo_father img:active{
+    transform: scale(1.5);
+}
+.header_title{
+    font-size: 30px;
+    line-height: 75px;
+    float: left;
+    font-family: 华文新魏;
+    font-weight: bold;
+    color: dodgerblue;
+    margin-left: 10px;
+}
+.login div a{
+    width: 50px;
+    height: 50px;
+    float: right;
+    line-height: 50px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    margin-top: 13px;
+    border-radius: 10px;
+}
+.login div a:hover{
+    width: 50px;
+    height: 50px;
+    background-color: deepskyblue;
+    color:white;
+}
+/*头部结束*/
+/* 导航开始 */
+.index_father{
+    width: 100%;
+    height: 65px;  
+    margin-top: 10px;
+}
+.index{
+    width: 1052px;
+    height: 235px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.yin{
+    width: 261px;
+    height: 70px;
+    float: left;
+    line-height: 70px;
+    border-radius: 10px;
+}
+li{
+    width: 261px;
+    height: 70px;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: rgba(103,158,220,0.7);
+    margin-right:2px ;
+    font-family: 楷体;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.two_title{
+    position: absolute;
+    left: 0;
+    top: 72px;
+    border: dodgerblue;
+    z-index: 11;
+    display:none;
+}
+.two_title a{
+    width: 261px;
+    height: 35px;
+    display: block;
+    background-color: rgba(103,158,220,0.7);
+    line-height: 35px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    z-index: 3;
+}
+.two_title a:hover{
+    background-color: rgba(30,144,255,0.8);
+    color: black;
+    z-index: 3;
+    -webkit-animation: coco 1s infinite;
+}
+.yin:hover{
+    background-color: rgba(30,144,255,0.8);
+    color: black;
+    z-index: 3;
+    -webkit-animation: coco 1s infinite;
+}
+/* 导航结束 */
+/* 回到顶层开始 */
+.posimg a{
+    width: 70px;
+    height: 126px;
+    background-image: url(../images/kj/rocket.png);
+    background-size: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    animation: ff 1s 1;
+}
+
+@keyframes ff{
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(0,-700px);
+    }
+}
+/* 回到顶层结束 */
+@keyframes coco{
+    0%{
+        color: orange;
+    }
+    50%{
+        color: orchid;
+    }
+    100%{
+        color: powderblue;
+    }
+}

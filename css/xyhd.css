@@ -1,0 +1,99 @@
+.index li:nth-child(3) .yin{
+    color: black;
+    background-color:dodgerblue;
+}
+.imghd_father{
+    width: 100%;
+    height: 572px;
+}
+li img{     
+    width: 100%;
+    height: 100%;
+}
+.imghd,.imghd li{
+    width: 140px;
+    height: 140px;
+    margin:0;
+    padding:0;
+    list-style:none;
+    position: absolute;
+    top:35%;
+    left:30%;
+}
+.imghd li{
+    border-bottom:20px solid #fff;
+    border-top:5px solid #fff;
+    border-left:5px solid #fff;
+    border-right:5px solid #fff;
+    transition: all 1s;
+}
+.imghd li:first-child{ 
+    z-index:16; 
+    transform: rotate(25deg) translate(205px,0px);
+}
+.imghd li:nth-child(2){
+    z-index: 15;
+    transform: rotate(55deg) translate(200px,0px);
+}
+.imghd li:nth-child(3){
+    z-index: 14;
+    transform: rotate(31deg) translate(91px,0px);
+}
+.imghd li:nth-child(4){
+    z-index: 13;
+    transform: rotate(0deg) translate(0px,218px);
+}
+.imghd li:nth-child(5){
+    z-index: 12;
+    transform: rotate(0deg) translate(217px,-35px);
+}
+.imghd li:nth-child(6){
+    z-index: 11;
+    transform: rotate(0deg) translate(118px,-112px);
+}
+.imghd li:nth-child(7){
+    z-index: 10;
+    transform: rotate(-28deg) translate(265px,167px);
+}
+.imghd li:nth-child(8){
+    z-index: 9;
+    transform: rotate(0deg) translate(351px,152px);
+}
+.imghd li:nth-child(9){
+    z-index: 8;
+    transform: rotate(27deg) translate(239px,-240px);
+}
+.imghd li:nth-child(10){
+    z-index: 7;
+    transform: rotate(-34deg) translate(-127px,74px);
+}
+.imghd li:nth-child(11){
+    z-index: 6;
+    transform: rotate(0deg) translate(288px,173px);
+}
+.imghd li:nth-child(12){
+    z-index: 5;
+    transform: rotate(-41deg) translate(0px,0px);
+}
+.imghd li:nth-child(13){
+    z-index: 4;
+    transform: rotate(16deg) translate(-22px,-105px);
+}
+.imghd li:nth-child(14){
+    z-index: 3;
+    transform: rotate(-57deg) translate(19px,-118px);
+}
+.imghd li:nth-child(15){
+    z-index: 2;
+    transform: rotate(0deg) translate(-121px,36px);
+}
+.imghd li:nth-child(16){
+    z-index: 1;
+    transform: rotate(-21deg) translate(78px,276px);
+}
+.imghd li:hover{
+    width: 350px;
+    height: 350px;
+    transform: rotate(0deg);
+    z-index: 17;
+}
